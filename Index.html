@@ -34,8 +34,8 @@
       // Current timestamp in ISO format
       const startTime = new Date().toISOString();
 
-      // Replace FORM_ID and entry.1234567890 with your actual values
-      const formURL = "https://docs.google.com/forms/d/e/1FAIpQLScOM-hgFTKMeo4ppOncesAqmQGK7FGJjNOOQekjyI8TV_wwUA/viewform?usp=pp_url&entry.925568435=Option+1" 
+      // Your Google Form URL with Sub Time field prefill
+      const formURL = "https://docs.google.com/forms/d/e/1FAIpQLScOM-hgFTKMeo4ppOncesAqmQGK7FGJjNOOQekjyI8TV_wwUA/viewform?usp=pp_url&entry.925568435=" 
                       + encodeURIComponent(startTime);
 
       // Redirect participant to form
@@ -44,4 +44,3 @@
   </script>
 </body>
 </html>
-
